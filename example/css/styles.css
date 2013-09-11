@@ -1,0 +1,125 @@
+html, body, div, span, applet, object, iframe, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td { margin:0; padding:0; }
+img { border: 0px; font-family: "Helvetica Neue", Helvetica, arial, sans-serif;}
+/* Force the vertical scrollbar in FF */
+html { overflow-y: scroll; }
+
+.clearfix:after {content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+.clearfix {display: inline-block;}
+* html .clearfix { height: 1%;}
+.clearfix {display: block;}
+
+body {
+	background-color:#131313;
+	font-family:"open sans", sans-serif;
+	padding-bottom:100px;
+}
+
+.content {
+	width:980px;
+	margin:0 auto;
+	padding-top:50px;
+}
+
+h1 {
+	font-size:90px;
+	color:#fff;
+	font-family:"Exo";
+	text-align:center;
+	margin-bottom:30px;
+}
+
+h2 {
+	font-size:40px;
+	color:#fff;
+	margin-bottom:10px;
+}
+
+p {
+	font-size:25px;
+	color:#fff;
+	margin-bottom:20px;
+}
+
+#player {
+	margin-bottom:0px;
+}
+
+.filter {
+    background: url("../images/spec.png") repeat fixed 0 0 transparent;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 91;
+}
+
+/* animate */
+
+#videoslide {
+	position:relative;
+	margin-top:100px;
+	height:400px;
+	overflow:hidden;
+	-moz-box-shadow: inset 0 0 10px rgba(0,0,0,0.9);
+	-webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.9);
+	box-shadow: inset 0 0 10px rgba(0,0,0,0.9);
+}
+
+.frame {
+	width:100%;
+	height:700px;
+	position:absolute;
+}
+
+
+.button {
+	width:30%;
+	display:block;
+	border: 2px solid #b52a2a;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+	color: #FFFFFF;
+	font-family: 'Open Sans',sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	margin: 0;
+	padding: 20px 5px 20px 5px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.45);
+	text-transform: uppercase;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	cursor:pointer;
+	background: #b52a2a; /* Old browsers */
+	background: -moz-linear-gradient(top,  #b52a2a 0%, #9b1b0f 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b52a2a), color-stop(100%,#9b1b0f)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #b52a2a 0%,#9b1b0f 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #b52a2a 0%,#9b1b0f 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #b52a2a 0%,#9b1b0f 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #b52a2a 0%,#9b1b0f 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b52a2a', endColorstr='#9b1b0f',GradientType=0 ); /* IE6-9 */
+}
+
+.button:hover {
+	border: 2px solid #F71C0C;
+	-moz-box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+}
+
+a {
+	color:#fff;
+	outline:none;
+}
+
+

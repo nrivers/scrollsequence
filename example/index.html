@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>scrollsequence</title>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Exo:400,700,600' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/styles.css" type="text/css">
+	</head>
+	<body>
+		<div class="content">
+			<h1>scrollsequence</h1>
+			<p><strong>scrollsequence</strong> is a lightweight jQuery plugin that simplifies and creates a flip book effect during page scroll. This isn't a complete plugin and requires strong knowledge of jQuery. Images included are for demonstration purposes only. I do not own rights to the video used. When loading you images you should do so in an asynchronous/non-blocking way. For demo purposes, this all happens on the main thread.</p>
+			<h2>The Video</h2>
+			<div id="player">
+				<object codebase="http://www.apple.com/qtactivex/qtplugin.cab" width="480" height="280">
+				<param name="src" value="mymovie.mov" />
+				<param name="controller" value="true" />
+				<object type="video/quicktime" data="mymovie.mov" width="480" height="280" class="mov">
+				<param name="controller" value="true" />
+				</object>
+				</object>
+			</div>
+		</div>
+		<div id="videoslide">
+			<div class="filter"></div>
+		</div>
+		<div class="content">
+			<h2>Dependencies</h2>
+			<p>jQuery 1.8+</p>
+			
+			<p>
+				<a class="button" href="https://github.com/nrivers/scrollsequence" target="_blank">Download on Github</a>
+			</p>
+			
+			<h2>License</h2>
+			<p>scrollsequence is an open source project and distributed under the <a href="https://github.com/nrivers/scrollsequence/blob/master/LICENSE">MIT license</a></p>
+		</div>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script type="text/javascript" src="js/scrollsequence.js"></script>
+	</body>
+</html>
