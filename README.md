@@ -5,7 +5,7 @@ A lightweight jQuery plugin that simplifies and creates a flip book effect durin
 
 Getting Started
 -------------
-.. code-block:: jquery
+.. code-block:: javascript
 
     
 
