@@ -6,12 +6,10 @@ scrollsequence
 <h2>Dependencies</h2>
 <p>jQuery 1.8+</p>
 
-scrollsequence was built with the latest version of jQuery.
-
 Features
 --------
 * Adds the images dynamically
-* Adds image replacement
+* Binds image filenames to the location of the page scroll.
 
 
 Check out the blog post at http://blueprintinteractive.com/blog
