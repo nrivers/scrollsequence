@@ -12,7 +12,7 @@ Features
 * Binds image filenames to the location of the page scroll.
 
 
-Check out the blog post at http://blueprintinteractive.com/blog
+Check out the blog post at http://www.blueprintinteractive.com/tutorials/scrollsequence/index.html
 
 License
 -------
